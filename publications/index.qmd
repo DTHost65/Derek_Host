@@ -2,14 +2,12 @@
 title: "Publications"
 ---
 
-I am currently working on two publications, both listed down below
+# Both Presentations are currently a work in progress
 
 
-Title - Altered Glycolysis in Cystic Fibrosis Mice Small Intestine
+##Altered Glycolysis in Cystic Fibrosis Mice Small Intestine:
 
-Description/Short Abstract:
-
-Cystic Fibrosis (CF) is the most common genetic disease in the U.S., with research primarily focused on pulmonary issues, leaving extrapulmonary complications underexplored. CF is linked to altered carbohydrate and lipid metabolism with transcriptomic data showing glycolysis is upregulated in the jejunum and ileum, but not in organoids derived from crypt cells (laboratory data), suggesting the involvement of in vivo-specific signals. This crypt vs. organoid difference points to endocrine or paracrine signals (e.g., hormones, cytokines) stimulating glycolysis in vivo.
+Cystic Fibrosis (CF) is the most common genetic disease in the U.S., with research primarily focused on pulmonary issues, leaving extrapulmonary complications underexplored. CF is linked to altered carbohydrate and lipid metabolism with transcriptomic data showing glycolysis is upregulated in the jejunum and ileum, but not in organoids derived from crypt cells, suggesting the involvement of in vivo-specific signals. This crypt vs. organoid difference points to endocrine or paracrine signals (e.g., hormones, cytokines) stimulating glycolysis in vivo.
 
 I will analyze upregulated genes from transcriptomic data to identify potential transcription factors driving increased glycolysis. Using bioinformatics tools, I’ll list possible factors, and then refine this list through literature searches. Based on gene expression derived from bulk RNA seq data and the literature search I’m focusing on Hif1a and Nrf2. Understanding their signaling pathways will help explain the dysregulated metabolism in CF intestines. Because Nrf2 is known to be dysfunctional in other organs with CF I hypothesize that dysregulation of Nrf2 due to nonfunctional Cftr leads to increased oxidative stress, which activates Hif1a and drives glycolysis.
 
@@ -23,9 +21,8 @@ Upregulated glycolysis genes by sample type alongside known Hif1a targets. Perce
 ----
 
 
-Title - Computational Prediction of Small Molocule Toxicity Using the CANDO Platform
+##Computational Prediction of Small Molocule Toxicity Using the CANDO Platform
 
-Description/Short Abstract:
 
 The CANDO platform comprises various pipelines for accurately assigning drugs/compounds to indications/phenotypes. Pipelines typically comprehensively compute interactions between all compounds and all proteins in corresponding libraries, resulting in a compound-proteome interaction signature to describe compound behavior/function. The interaction signatures are compared to each other in an all-against-all fashion and ranked similarity lists are produced. Our hypothesis is that compounds with similar interaction signatures behave/function similarly, and therefore may be associated with the same indication/phenotype. Performance is assessed based on the recovery rate of known drug-indication mappings being recaptured within particular cutoffs in the ranked similarity lists. Compounds within the top ranked cutoffs that are not known mappings are treated as novel predictions for a given indication/phenotype. 
 
